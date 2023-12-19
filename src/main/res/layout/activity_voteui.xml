@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="20dp"
+        tools:context=".voteui">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="Social Welfare Secratary"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/sws"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/sws1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Samin Sadique Aurin" />
+
+            <RadioButton
+                android:id="@+id/sws2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Junayed Ahmed" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="Printing and Publication Secretary:"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/pps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/pps1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Maria Mim" />
+
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="Information and Research Secretary:"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/irs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/irs1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Mirza Afnan Islam" />
+
+            <RadioButton
+                android:id="@+id/irs2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tanvir Ahmed" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="Sports Secretary"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/ss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/ss1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Mashfi Hossain" />
+
+            <RadioButton
+                android:id="@+id/ss2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Debjoty Roy Pranto" />
+
+            <RadioButton
+                android:id="@+id/ss3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Abyead Zarif Hassan" />
+
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="Cultural Secretary:"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/cs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/cs1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Aniruddha Majumder" />
+
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="Executive Members (8th batch):"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/em"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/em1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Anika Begum" />
+
+            <RadioButton
+                android:id="@+id/em2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Muhtadi Al Tahmid" />
+
+
+        </RadioGroup>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="Executive Members (7th batch):"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/em21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M. Farhan Ishmam" />
+
+        <CheckBox
+            android:id="@+id/em22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asraful islam Hemel" />
+
+        <CheckBox
+            android:id="@+id/em23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Samudra Jit Saha" />
+
+        <CheckBox
+            android:id="@+id/em24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MD. Abid Chowdhury" />
+
+        <CheckBox
+            android:id="@+id/em25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Md. Ajmain Istiak Apon" />
+
+        <CheckBox
+            android:id="@+id/em26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Md Nafiul Islam" />
+
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Submit" />
+    </LinearLayout>
+</ScrollView>
+
+
